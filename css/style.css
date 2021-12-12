@@ -524,6 +524,7 @@ html {
     .company_block {
         margin-top: 49px;
         margin-bottom: 162px;
+        align-items: center;
     }
     .last_img {
         padding-right: 0;
@@ -580,6 +581,13 @@ html {
     }
     .footer_column1 {
         margin-left: 0;
+    }
+    .section_title_promo{
+        text-align: center;
+        margin-left: 150px;
+    }
+    .digits_text_block{
+        margin-left: -150px;
     }
 }
 
@@ -710,13 +718,6 @@ html {
         margin-bottom: 20px;
     }
 }
-
-@media (max-width: 520px) {
-    .fs_3 {
-        display: none;
-    }
-}
-
 @media (max-width: 490px) {
     .button_company {
         display: none;
@@ -762,10 +763,10 @@ html {
 
 @media (max-width: 380px) {
     .section_title {
-        margin-left: 1%;
+        margin-left: 3%;
     }
     .digits_text {
-        margin-right: 80%;
+        margin-right: 45%;
     }
     .intouch_text {
         text-align: center;
